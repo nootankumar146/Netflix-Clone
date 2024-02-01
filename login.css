@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.netflix{
+    background:linear-gradient(rgba(0, 0, 0, 0.805),rgba(0,0,0,0.805)), url("./net.jpg");
+    height: 90vh;/* viewport height*/
+    background-size: cover;
+    background-position: center;
+
+   }
+   .navbar{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 0px 20px;
+   }
+   .btn1{
+       background-color: black;
+       color: white;
+       border: 1px solid gray;
+       border-radius: 3px;
+       padding: 6px 30px;
+   }
+   .btn2{
+       background-color: black;
+       color: white;
+       border-radius: 3px;
+   padding: 6px 30px;
+   }
+   .into{
+       color: white;
+       text-align: center;
+       transform: translateY(160px);
+   
+   }
+   .title h1{
+       font-size: 48px;
+       padding: 0px 50px;
+   
+   }
+   .desc1 p{
+       font-size: 24px;
+       margin: 10px 0px;
+   }.desc2 p{
+       font-size:24px ;
+   }
+   .form{
+       margin: 15px 0px;
+   }
+   .form input{
+       
+       height: 35px;
+       width: 300px;
+       background-color: rgba(0, 0, 0, 0.811);
+       border: 1px solid gray;
+       border-radius: 5px;
+       padding-left: 15px;
+   }
+   .form input::placeholder{
+       color: white;
+   }
+   .form button{
+       background-color: red;
+       color: white;
+       border: none;
+       border-radius: 5px;
+       padding: 12px 36px;
+       font-size: 18px;
+   }
+   .navbar button{
+       background-color: red;
+       color: white;
+       border: none;
+   
+   }
+
+.navbar{
+             display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+                
+    
+
+}
+.back{
+    background-image: url(net.jpg);
+    background-size: cover;
+    position: relative;
+    padding: 10px;
+    opacity: 86%;
+    width: 100%;
+    height: 480px;
+      
+
+    
+}
+.logo{
+    color: red;
+    align-items: flex-end;
+    justify-content:space-between;
+    
+
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    
+
+}
+
+.box button{
+    color: white;
+    background-color: red;
+}
+#box2 {
+
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+
+.email{
+    text-align: center;
+    padding-top: 10px;
+
+
+}
+.email form{
+    color:black;
+
+}
+.email input{
+    background-color:black;
+    color: white;
+    height: 20px;
+}
+.email button{
+    color:white;
+    background-color: red;
+
+}
+
+
+    
+.back2 {
+        display: flex; 
+        align-items: center;
+        justify-content: space-evenly;       
+    background-color: black;
+    color: white;
+
+    
+    
+
+}
+.enjoy{
+text-align: center;
+    
+                
+    }
+    
+
+
+.download{
+    display: flex;
+    background-color: black;
+    color:white;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+
+}
+.watch{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+
+}
+.chidren{
+    display: flex;
+    background-color: black;
+    color:white;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.netflix{
+    background-color: black;
+    color: white;
+    padding: 72px;
+    
+}
+.head{
+    text-align: center;
+}
+.text6 h3{
+    padding: 20px;
+            margin: 5px 15px;
+            background-color: rgb(71, 70, 70);
+
+}
+.text6 h3:hover{
+    background-color: rgb(106, 106, 106);
+
+}
+.box4{
+    text-align: center;
+    background-color: black;
+}
+.box4 input{
+    height: 35px ;
+            width: 300px;
+            background-color: rgb(45, 45, 45);
+            border: 1px solid rgb(106, 106, 106);
+            border-radius: 3px;
+            padding: 0px 8px
+}
+.box4 p{
+    font-size: 22px;
+}
+.box4 button{
+    background-color: red;
+    padding: 8px 18px;
+    color: white;
+    border: none;
+    border-radius: 3px ;
+}
+.box4 input{
+    color: white;
+}
+.tags{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.tags a{
+    color:rgba(255,255,255,0.7);
+}
+/* .netflix{ 
+    background:linear-gradient(rgba(0, 0, 0, 0.805),rgba(0,0,0,0.805)), url("./image/netflix.jpg");
+    height: 100vh;/* viewport height*/
+/*    background-size: cover;
+    background-position: center;
+   }
+   .navbar{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       padding: 0px 20px;
+   }
+   .btn1{
+       background-color: black;
+       color: white;
+       border: 1px solid gray;
+       border-radius: 3px;
+       padding: 6px 30px;
+   }
+   .btn2{
+       background-color: black;
+       color: white;
+       border-radius: 3px;
+   padding: 6px 30px;
+   }
+   .into{
+       color: white;
+       text-align: center;
+       transform: translateY(160px);
+   
+   }
+   .title h1{
+       font-size: 48px;
+       padding: 0px 50px;
+   
+   }
+   .desc1 p{
+       font-size: 24px;
+       margin: 10px 0px;
+   }.desc2 p{
+       font-size:24px ;
+   }
+   .form{
+       margin: 15px 0px;
+   }
+   .form input{
+       height: 35px;
+       width: 300px;
+       background-color: rgba(0, 0, 0, 0.811);
+       border: 1px solid gray;
+       border-radius: 5px;
+       padding-left: 15px;
+   }
+   .form input::placeholder{
+       color: white;
+   }
+   .form button{
+       background-color: red;
+       color: white;
+       border: none;
+       border-radius: 5px;
+       padding: 12px 36px;
+       font-size: 18px;
+   }
+   .navbar button{
+       background-color: red;
+       color: white;
+       border: none;
+   
+   }*/
